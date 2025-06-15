@@ -2,7 +2,7 @@ function countOfAllBooleans(arr)
 {
   let num = 0;
 
-  for(i = 0; i < arr.length; i++)
+  for(let i = 0; i < arr.length; i++)
   {
     if (typeof arr[i] === 'boolean')
     {
